@@ -11,10 +11,12 @@ Usage
 3. Place a second copy of this in a place in your network that can see the server to which you want to relay the POST request.
 4. Set environment variables for the private instance of this app:
 
-     REMOTE_HOST=somepublicapp.herokuapp.com
-     LOCAL_HOST=someprivateapp.yournetwork.local
-     LOCAL_PORT=8080
-     LOCAL_PATH=/path/on/your/app/that/should/receive/posts
+```
+REMOTE_HOST=somepublicapp.herokuapp.com
+LOCAL_HOST=someprivateapp.yournetwork.local
+LOCAL_PORT=8080
+LOCAL_PATH=/path/on/your/app/that/should/receive/posts
+```
 
 Caveats
 -------
