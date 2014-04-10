@@ -1,0 +1,13 @@
+{
+  "name": "post-hook-relay",
+  "version": "0.0.0",
+  "description": "Relay POST hooks to a private server using websockets.",
+  "main": "app.js",
+  "author": "George Pantazis",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.5.1",
+    "socket.io": "~0.9.16",
+    "socket.io-client": "~0.9.16"
+  }
+}
